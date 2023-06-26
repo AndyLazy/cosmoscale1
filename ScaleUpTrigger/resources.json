@@ -7,7 +7,7 @@
             "api": "nosql",
             "throughputType": "autoscale",
             "resourceName": "Navigator",
-            "throughput": 29900
+            "throughput": 19900
         },
         {
             "resourceGroupName": "qa-nav-eastus-rg",
