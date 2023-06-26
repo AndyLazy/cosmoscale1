@@ -2,20 +2,20 @@
     "resources":
     [
         {
-            "resourceGroupName": "MyResourceGroup",
-            "accountName": "my-cosmos-account",
+            "resourceGroupName": "uat-nav-eastus-rg",
+            "accountName": "uat-nav-eastus-cosmo-01",
             "api": "nosql",
             "throughputType": "autoscale",
-            "resourceName": "database1",
-            "throughput": 4000
+            "resourceName": "Navigator",
+            "throughput": 4950
         },
         {
-            "resourceGroupName": "MyResourceGroup",
-            "accountName": "my-cosmos-account-2",
+            "resourceGroupName": "qa-nav-eastus-rg",
+            "accountName": "qa-nav-eastus-cosmo-01",
             "api": "nosql",
-            "throughputType": "manual",
-            "resourceName": "database2/container1",
-            "throughput": 400
+            "throughputType": "autoscale",
+            "resourceName": "Navigator",
+            "throughput": 2995
         }
     ]
 }
